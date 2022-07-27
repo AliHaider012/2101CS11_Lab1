@@ -45,9 +45,15 @@ void printArray(int array[], int size) {
 }
 
 int main() {
-  int arr[] = {8, 7, 2, 1, 0, 9, 6};
-  
-  int n = sizeof(arr) / sizeof(arr[0]);
+  int n;
+  printf("\nEnter the number of elements: ");
+  scanf("%d", &n);
+
+  int arr[n];
+  printf("\nEnter the elements: ");
+  for (int i=0; i<n; i++){
+    scanf("%d", &arr[i]);
+  }
   
   printf("Unsorted Array\n");
   printArray(arr, n);
