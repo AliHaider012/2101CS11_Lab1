@@ -25,7 +25,7 @@ void merging(int arr[], int left, int middle, int right){
 			arr[k] = R[j];
 			j++;
 		}
-		k++;
+		++k;
 	}
 
 	while (i < n1) {
