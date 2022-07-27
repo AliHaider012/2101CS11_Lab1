@@ -16,7 +16,9 @@ void multiplication(double a, double b){
 }
 
 void division(double a, double b){
-    if (b==0) printf("\ninvalid");
+    if (b==0){
+        printf("\nInvalid");
+    }
     else{
         double divided = a / b;
         printf("\n%lf ", divided);
