@@ -12,7 +12,7 @@ void subtraction(double a, double b){
 
 void multiplication(double a, double b){
     double multiplied = a * b;
-    printf("\n%lf ", multiplied);
+    printf("\n%lf ", multiplied); //guiguyjgy
 }
 
 void division(double a, double b){
