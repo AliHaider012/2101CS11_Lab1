@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void addition(double a, double b){
-    double added = a + b;
+    double added = a +b;
     printf("\n%lf ", added);
 }
 
