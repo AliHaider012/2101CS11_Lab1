@@ -2,7 +2,7 @@
 
 void addition(double a, double b){
     double added = a +b;
-    printf("\n%lf ", added);
+    printf("\n%lf ", added); //jjkvgghcc
 }
 
 void subtraction(double a, double b){
